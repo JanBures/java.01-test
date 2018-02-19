@@ -46,7 +46,6 @@ public class Matice {
         return this.data;
    }
     
-    
     public void getData(){
         for(int x=0; x<this.data.length;x++){
             for(int y=0;y<this.data[x].length;y++){
