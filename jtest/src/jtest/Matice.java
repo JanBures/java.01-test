@@ -9,26 +9,22 @@ package jtest;
  *
  * @author honza
  */
-public class Matice {
+    public class Matice {
     
     private int[][] data;
     private int radku, sloupcu;
     Kostka kostka;
     static int maxNum = 6;
-    
-    /****
-     * Konstruktor
-     * @param radku
-     * @param sloupcu 
-     */
+
+   public Matice(){
+        this(6,6);
+    }    
+
     public Matice(int radku, int sloupcu){       
         this(radku,sloupcu,maxNum);
     }
     
-    public Matice(){
-        this(6,6);
-    }
-    
+
     public Matice(int radku, int sloupcu, int maxNum){
         this.radku = radku;
         this.sloupcu = sloupcu;
